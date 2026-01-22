@@ -1,11 +1,10 @@
-<!-- GitHub Pages trigger -->
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <title>LED Control</title>
 
-  <!-- MQTT -->
+  <!-- MQTT Library -->
   <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
 
   <!-- CSS -->
@@ -15,7 +14,9 @@
 
   <div class="card">
     <h1>LED Control</h1>
+
     <div class="status">OFF</div>
+    <div class="device-status">Device: OFFLINE</div>
 
     <label class="switch">
       <input type="checkbox">
@@ -26,4 +27,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
